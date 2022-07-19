@@ -26,7 +26,7 @@ $$ G(x) = A_d\sigma(A_{d-1} \cdots \sigma(A_1 z)\cdots),$$
 where $A_i \in \mathbb{R}^{n_i \times n_{i-1}}$ is the weight matrix and $\sigma(\cdot)$ is the activation function. We
 determine the conditions (on $A, G, x_{0}$, \etc) under which it is possible to (approximately) recover $x_{0}$ from noisy linear measurements $y$ by (approximately) solving an optimization problem of the form
 
-$$\argmin_{z \in \mathbb{R}^{k}} \|b - A G(z) \|_{2}. $$
+$$\min_{z \in \mathbb{R}^{k}} \|b - A G(z) \|_{2}. $$
 
 
 
