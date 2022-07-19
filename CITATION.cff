@@ -1,0 +1,9 @@
+cff-version: 1.0
+message: "If you use this code, please cite it as below."
+authors:
+  - family-names: Berk, Brugiapaglia, Joshi, Yaniv, Matthew, and Ozgur
+    given-names: Aaron, Simone, Babhru, Yaniv, Scott, and Yilmaz
+    orcid: https://orcid.org/0000-0003-4925-7248
+title: "A coherence parameter charecterizing generative compressed sensing with Fourier measurements"
+doi: 
+date-released: 2022-07-18
