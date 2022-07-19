@@ -11,12 +11,12 @@ Code for paper: **A coherence parameter for characterizing generative compressed
 **File Structure**
 1. `scr` contains notebooks used to generate figures
 2. `figures` contains figures in the paper
-3. `trained_GNN` contain trained decoder  
+3. `trained_GNN` contains trained decoder  
 
 
 **Problem**
 
-We consider the compressed sensing problem of recovering $x\in\mathbb{R}^n$ from noisy measurements of the form
+Consider the compressed sensing problem of recovering $x\in\mathbb{R}^n$ from noisy measurements of the form
 
 $$y = A x_{0} + \epsilon, $$
 
