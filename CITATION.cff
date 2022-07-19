@@ -1,9 +1,19 @@
 cff-version: 1.0
 message: "If you use this code, please cite it as below."
 authors:
-  - family-names: Berk, Brugiapaglia, Joshi, Yaniv, Matthew, and Ozgur
-    given-names: Aaron, Simone, Babhru, Yaniv, Scott, and Yilmaz
-    orcid: https://orcid.org/0000-0003-4925-7248
+  - family-names: "Berk" 
+    given-names: "Aaron"
+  - family-names: "Brugiapaglia"
+    given-names: "Simone" 
+  - family-names: "Joshi" 
+    given-names: "Babhru" 
+  - family-names: "Plan" 
+    given-names: "Yaniv"
+  - family-names: "Matthew"
+    given-names: "Scott"
+  - family-names: "Ozgur"
+    given-names: "Yilmaz"
 title: "A coherence parameter charecterizing generative compressed sensing with Fourier measurements"
-doi: 
+doi: TBA
 date-released: 2022-07-18
+url: "https://github.com/babhrujoshi/GNN-with-sub-Fourier-paper"
