@@ -11,7 +11,8 @@ Code for paper: **A coherence parameter for characterizing generative compressed
 **File Structure**
 1. `scr` contains notebooks used to generate figures
 2. `figures` contains figures in the paper
-3. `trained_GNN` contains trained decoder  
+3. `trained_GNN` contains trained decoder 
+4. `saved_data` contains saved experiments in jld format 
 
 
 **Problem**
