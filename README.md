@@ -1,1 +1,34 @@
-# GNN-with-sub-Fourier-paper
+Code for paper: **A coherence parameter for characterizing generative compressed sensing with Fourier measurements**
+
+**Authors:**
+1. Aaron Berk
+2. Simone Brugiapaglia
+3. Babhru Joshi
+4. Yaniv Plan
+5. Matthew Scott
+6. Ozgur Yilmaz
+
+**File Structure**
+1. `scr` contains notebooks used to generate figures
+2. `figures` contains figures in the paper
+3. `trained_GNN` contain trained decoder  
+
+
+**Problem**
+We consider the compressed sensing problem of recovering $x\in\mathbb{R}^n$ from noisy measurements of the form
+
+$$y = A x_{0} + \epsilon, $$
+
+where $\epsilon\in\mathbb{R}^n$ is noise and $A$ is the sub-sampled Fourier matrix (or general isometry). We assume the unknown signal $x$ lives in the range of known generative model $G:\mathbb{R}^k \rightarrow \mathbb{R}^n$, i.e. $x_{0} = G(z_0)$ for some $z_0 \in \mathbb{R}^k$. We assume the generative model $G$ is  fully-connected feedforward network of the form 
+
+$$ G(x) = A_d\sigma(A_{d-1} \cdots \sigma(A_1 z)\cdots),$$
+
+where $A_i \in \mathbb{R}^{n_i \times n_{i-1}}$ is the weight matrix and $\sigma(\cdot)$ is the activation function. We
+determine the conditions (on $A, G, x_{0}$, \etc) under which it is possible to (approximately) recover $x_{0}$ from noisy linear measurements $y$ by (approximately) solving an optimization problem of the form
+
+$$\argmin_{z \in \mathbb{R}^{k}} \|b - A G(z) \|_{2}. $$
+
+
+
+
+
